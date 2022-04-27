@@ -2244,7 +2244,8 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
+		/*background: url("images/overlay.png"), url("../../images/intro.jpg");*/
+		background: url("images/overlay.png"), url("../../images/dark_mountain.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2254,7 +2255,7 @@ input, select, textarea {
 /* One */
 
 	#one {
-		background: url("images/overlay.png"), url("../../images/one.jpg");
+		background: url("images/overlay.png"), url("../../images/hci_1_noise.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2263,7 +2264,7 @@ input, select, textarea {
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
+		background: url("images/overlay.png"), url("../../images/Photo_Sichang.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2310,3 +2311,93 @@ input, select, textarea {
 			}
 
 		}
+
+
+	/*.dropdown {*/
+	/*	position: relative;*/
+	/*}*/
+
+		/* Hide the dropdown's content by default */
+	/*	.dropdown__content {*/
+	/*		display: none;*/
+
+			/* Position it right below the trigger element */
+	/*		left: 0;*/
+	/*		padding-top: 4px;*/
+	/*		position: absolute;*/
+	/*		top: 100%;*/
+
+			/* It should be on the top of other elements */
+	/*		background-color: #fff;*/
+	/*		z-index: 9999;*/
+
+			/* Size */
+	/*		height: 300px;*/
+	/*		width: 200px;*/
+	/*	}*/
+
+		/* Show the content when hover on the container */
+	/*	.dropdown:hover .dropdown__content {*/
+	/*		display: block;*/
+	/*	}*/
+
+	.dropdown {
+							/* Border */
+							/*border: 1px solid rgba(0, 0, 0, 0.3);*/
+							/*display: flex;*/
+
+							/* Reset list styles */
+							list-style-type: none;
+							margin: 0;
+							padding: 0;
+						}
+
+						.dropdown li {
+							/* Spacing */
+							padding: 8px;
+
+							/* Used to position the sub dropdown */
+							position: relative;
+						}
+
+						/* The sub dropdown */
+						.dropdown ul {
+							/* Border */
+							border: 1px solid rgba(0, 0, 0, 0.3);
+							background-color: #fff;
+
+							/* Hidden by default */
+							display: none;
+							min-width: 100px;
+
+							/* Absolute position */
+							left: 0;
+							position: absolute;
+							top: 100%;
+
+							/* Reset styles */
+							list-style-type: none;
+							margin: 0;
+							padding: 0;
+
+							/* Width */
+							width: 100px;
+							line-height: 5px;
+						}
+
+						/* The second level sub dropdown */
+						.dropdown ul ul {
+							left: 100%;
+							position: absolute;
+							top: 0;
+						}
+
+						/* Change background color of list item when being hovered */
+						.dropdown li:hover {
+							background-color: rgba(0, 0, 0, 0.1);
+						}
+
+						/* Show the direct sub dropdown when hovering the list item */
+						.dropdown li:hover > ul {
+							display: block;
+						}
