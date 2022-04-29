@@ -726,6 +726,8 @@ span figure:not(:first-child) {
 	}
 
 	blockquote {
+		margin-top: 1em;
+		margin-bottom: 1em;
 		border-left: solid 0.5em #e5e6e7;
 		padding: 1em 0 1em 2em;
 		font-style: italic;
@@ -3709,117 +3711,45 @@ span figure:not(:first-child) {
 				font-size: 1.25em;
 			}
 
+
 		#header nav {
 			position: absolute;
 			right: 0.5em;
 			top: 0;
-			/*width: 100%;*/
-			/*cursor: default;*/
 			height: 3em;
 			line-height: 3em;
 		}
-			#header nav > ul > li {
-				 display: inline-block;
-				 padding-right: 2em;
+
+			#header nav ul {
+				margin: 0;
 			}
-				 #header nav > ul > li:last-child {
-					 padding-right: 0;
-				 }
 
-
-				#header nav > ul > li > a {
-					 border: 0;
-					 text-decoration: none;
-					 text-transform: uppercase;
-					 font-weight: 400;
-					 color: #777;
-					 outline: 0;
-					 display: block;
+				#header nav ul li {
+					display: inline-block;
+					margin-left: 0.5em;
+					font-size: 0.9em;
 				}
+					#header nav ul li:last-child {
+						/* padding-right: 0; */
+					}
 
-					 #header nav > ul > li > a:before {
-						   display: inline-block;
-						   background: #878787;
-						   color: #e4e4e4;
-						   width: 2.25em;
-						   font-size: 0.8em;
-						   height: 2.25em;
-						   border-radius: 2.25em;
-						   line-height: 2.1em;
-						   text-align: center;
-						   box-shadow: 0.125em 0.175em 0 0 rgba(0, 0, 0, 0.125);
-						   margin-right: 0.75em;
-						   -moz-transition: color 0.25s ease-in-out, background 0.25s ease-in-out;
-						   -webkit-transition: color 0.25s ease-in-out, background 0.25s ease-in-out;
-						   -o-transition: color 0.25s ease-in-out, background 0.25s ease-in-out;
-						   -ms-transition: color 0.25s ease-in-out, background 0.25s ease-in-out;
-						   transition: color 0.25s ease-in-out, background 0.25s ease-in-out;
-					  }
+					#header nav ul li.active a:before,
+					#header nav ul li.hover a:before {
+						background: #ED786A;
+						color: #fff;
+					}
 
-					 #header nav > ul > li > a > span {
-						   -moz-transition: color 0.25s ease-in-out;
-						   -webkit-transition: color 0.25s ease-in-out;
-						   -o-transition: color 0.25s ease-in-out;
-						   -ms-transition: color 0.25s ease-in-out;
-						   transition: color 0.25s ease-in-out;
-						   font-size: 0.85em;
-						   letter-spacing: 3px;
-					 }
+					#header nav ul li a {
+						display: block;
+						color: inherit;
+						text-decoration: none;
+						height: 3em;
+						line-height: 3em;
+						padding: 0 0.5em 0 0.5em;
+						outline: 0;
+					}
 
-					 #header nav > ul > li > ul {
-						   display: none;
-					 }
-
-					 #header nav > ul > li.active > a:before,
-					 #header nav > ul > li:hover > a:before {
-						   background: #ED786A;
-						   color: #fff;
-					 }
-
-					 #header nav > ul > li.active > a > span,
-					 #header nav > ul > li:hover > a > span {
-						   color: #ED786A;
-					 }
-
-
-		/*#header nav {*/
-		/*	position: absolute;*/
-		/*	right: 0.5em;*/
-		/*	top: 0;*/
-		/*	height: 3em;*/
-		/*	line-height: 3em;*/
-		/*}*/
-
-		/*	#header nav ul {*/
-		/*		margin: 0;*/
-		/*	}*/
-
-		/*		#header nav ul li {*/
-		/*			display: inline-block;*/
-		/*			margin-left: 0.5em;*/
-		/*			font-size: 0.9em;*/
-		/*		}*/
-		/*			#header nav ul li:last-child {*/
-		/*				padding-right: 0;*/
-		/*			}*/
-
-		/*			#header nav ul li.active a:before,*/
-		/*			#header nav ul li.hover a:before {*/
-		/*				background: #ED786A;*/
-		/*				color: #fff;*/
-		/*			}*/
-
-		/*			#header nav ul li a {*/
-		/*				display: block;*/
-		/*				color: inherit;*/
-		/*				text-decoration: none;*/
-		/*				height: 3em;*/
-		/*				line-height: 3em;*/
-		/*				padding: 0 0.5em 0 0.5em;*/
-		/*				outline: 0;*/
-		/*			}*/
-
-		.dropotron {
+		/* .dropotron {
 			 text-align: left;
 			 border: solid 1px #e5e5e5;
 			  border-radius: 4px;
@@ -3881,7 +3811,7 @@ span figure:not(:first-child) {
 					  -ms-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 					  transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
 					  color: #ed786a;
-				 }
+				 } */
 
 
 		@media screen and (max-width: 736px) {
