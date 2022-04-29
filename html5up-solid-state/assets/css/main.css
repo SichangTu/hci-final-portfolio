@@ -101,9 +101,12 @@ input, select, textarea {
 	body {
 		background-color: #2e3141;
 		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-		background-size: auto, cover;
-		background-attachment: fixed, fixed;
-		background-position: center, center;
+		background-size: auto,
+ cover;
+		background-attachment: fixed,
+ fixed;
+		background-position: center,
+ center;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3124,7 +3127,7 @@ input, select, textarea {
 					margin-left: 0.75em;
 				}
 
-				#header nav a[href="#menu"] {
+				#header nav a[href="#page_menu"] {
 					text-decoration: none;
 					-moz-transition: background-color 0.2s ease-in-out;
 					-webkit-transition: background-color 0.2s ease-in-out;
@@ -3135,7 +3138,7 @@ input, select, textarea {
 					padding: 0 1.35em;
 				}
 
-					#header nav a[href="#menu"]:before {
+					#header nav a[href="#page_menu"]:before {
 						-moz-osx-font-smoothing: grayscale;
 						-webkit-font-smoothing: antialiased;
 						display: inline-block;
@@ -3148,16 +3151,16 @@ input, select, textarea {
 						font-weight: 900;
 					}
 
-					#header nav a[href="#menu"]:before {
+					#header nav a[href="#page_menu"]:before {
 						content: '\f0c9';
 						line-height: inherit;
 					}
 
-					#header nav a[href="#menu"]:hover {
+					#header nav a[href="#page_menu"]:hover {
 						background-color: rgba(255, 255, 255, 0.025);
 					}
 
-					#header nav a[href="#menu"]:active {
+					#header nav a[href="#page_menu"]:active {
 						background-color: rgba(255, 255, 255, 0.075);
 					}
 
@@ -3189,13 +3192,13 @@ input, select, textarea {
 						line-height: inherit;
 					}
 
-						#header nav a[href="#menu"] {
+						#header nav a[href="#page_menu"] {
 							box-shadow: none;
 							padding: 0 1em;
 							border-radius: 0;
 						}
 
-							#header nav a[href="#menu"]:hover, #header nav a[href="#menu"]:active {
+							#header nav a[href="#page_menu"]:hover, #header nav a[href="#page_menu"]:active {
 								background-color: inherit;
 							}
 
@@ -3203,14 +3206,14 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
-			#header nav a[href="#menu"] {
+			#header nav a[href="#page_menu"] {
 				width: 4em;
 				white-space: nowrap;
 				text-indent: 4em;
 				position: relative;
 			}
 
-				#header nav a[href="#menu"]:before {
+				#header nav a[href="#page_menu"]:before {
 					width: inherit;
 					position: absolute;
 					top: 0;
@@ -3232,7 +3235,7 @@ input, select, textarea {
 		transition: filter 0.25s ease;
 	}
 
-	#menu {
+	#page_menu {
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3267,7 +3270,7 @@ input, select, textarea {
 		width: 100%;
 	}
 
-		#menu .inner {
+		#page_menu .inner {
 			padding: 2.5em 1.5em 0.5em 1.5em ;
 			-moz-transform: translateY(0.5em);
 			-webkit-transform: translateY(0.5em);
@@ -3287,12 +3290,12 @@ input, select, textarea {
 			width: 18em;
 		}
 
-		#menu h2 {
+		#page_menu h2 {
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 			padding-bottom: 1em;
 		}
 
-		#menu .close {
+		#page_menu .close {
 			background-image: url("images/close.svg");
 			background-position: 75% 25%;
 			background-repeat: no-repeat;
@@ -3310,17 +3313,17 @@ input, select, textarea {
 			width: 4em;
 		}
 
-		#menu .links {
+		#page_menu .links {
 			list-style: none;
 			margin-bottom: 1.5em;
 			padding: 0;
 		}
 
-			#menu .links li {
+			#page_menu .links li {
 				padding: 0;
 			}
 
-				#menu .links li a {
+				#page_menu .links li a {
 					border-radius: 5px;
 					border: 0;
 					display: block;
@@ -3333,19 +3336,19 @@ input, select, textarea {
 					text-transform: uppercase;
 				}
 
-					#menu .links li a:hover {
+					#page_menu .links li a:hover {
 						background: #45558d;
 					}
 
 		@media screen and (max-width: 736px) {
 
-			#menu .inner {
+			#page_menu .inner {
 				max-height: 100%;
 				overflow-y: auto;
 				overflow-x: hidden;
 			}
 
-				#menu .inner .close {
+				#page_menu .inner .close {
 					background-size: 1.5em 1.5em;
 				}
 
@@ -3358,13 +3361,13 @@ input, select, textarea {
 		filter: blur(1.5px);
 	}
 
-	body.is-menu-visible #menu {
+	body.is-menu-visible #page_menu {
 		pointer-events: auto;
 		opacity: 1;
 		visibility: visible;
 	}
 
-		body.is-menu-visible #menu .inner {
+		body.is-menu-visible #page_menu .inner {
 			-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
@@ -3464,8 +3467,10 @@ input, select, textarea {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
 				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-				background-size: auto, cover;
-				background-position: center, center;
+				background-size: auto,
+ cover;
+				background-position: center,
+ center;
 				margin-bottom: -6.5em;
 			}
 
@@ -3574,8 +3579,10 @@ input, select, textarea {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-			background-size: auto, cover;
-			background-position: center, 0% 30%;
+			background-size: auto,
+ cover;
+			background-position: center,
+ 0% 30%;
 			margin-bottom: -6.5em;
 		}
 
@@ -3585,8 +3592,10 @@ input, select, textarea {
 
 		#wrapper > header {
 			padding: 11em 3em 7.375em 3em ;
-			background-size: auto, cover;
-			background-position: center, 0% 0%;
+			background-size: auto,
+ cover;
+			background-position: center,
+ 0% 0%;
 			margin-bottom: -4.75em;
 		}
 
@@ -3600,7 +3609,8 @@ input, select, textarea {
 
 		#wrapper > header {
 			padding: 6.5em 2em 3em 2em ;
-			background-size: auto, 125%;
+			background-size: auto,
+ 125%;
 			margin-bottom: -2.5em;
 		}
 
@@ -4062,8 +4072,10 @@ input, select, textarea {
 		#footer {
 			background-color: #2e3141;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-			background-size: auto, cover;
-			background-position: center, center;
+			background-size: auto,
+ cover;
+			background-position: center,
+ center;
 			margin-top: -6.5em;
 			padding-top: 6.5em;
 		}

@@ -1,0 +1,417 @@
+<!DOCTYPE HTML>
+<!--
+	Big Picture by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <title>Design for Understanding - Sichang Tu</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+</head>
+
+<body class="is-preload">
+    <!-- Header -->
+    <header id="header">
+        <h1>Sichang Tu</h1>
+        <nav>
+            <ul class="dropdown">
+                <li>
+                    <div>Home Page</div>
+                    <ul>
+                        <li><a href="index.html#intro">Intro</a></li>
+                        <li><a href="index.html#one">What I Do</a></li>
+                        <li><a href="index.html#two">Who I Am</a></li>
+                        <li><a href="index.html#work">My Work</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </li>
+                <li><a href="portfolio.html">Portfolio</a> </li>
+                <li><a href="html5up-solid-state/generic.html">Reflection</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="wrapper">
+        <header>
+            <div class="inner">
+                <h2>Design for Understanding</h2>
+                <p>Data Visualization for Billionaires</p>
+            </div>
+        </header>
+
+        <div class="wrapper">
+            <div class="inner">
+                <h3 class="major">Introduction</h3>
+
+                <section class="features">
+                    <!-- <div class="box alt"> -->
+                    <div class="row gtr-uniform">
+                        <div class="col-12">
+                            <span class="image fit">
+                                <figure>
+                                    <img src="images/design_for_understanding/design_for_understanding_1.jpg" alt="" />
+                                    <figcaption>Grist / Getty Images</figcaption>
+                                </figure>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- </div> -->
+                </section>
+
+                <p>This group project uses visual methods to communicate data for two different goals: (1) present data
+                    in an unbiased and in-depth way; (2) present data in a persuasive and compelling way. Hence, in this
+                    blog, I will first introduce the dataset and tool we utilized. And then, I will illustrate how we
+                    brainstorm, sketch and realize our designs. At last, I will present the final visualization with a
+                    demo video to show our work.</p>
+
+                <section class="article">
+                    <h3 class="major">Dataset & Technology</h3>
+                    <p>The dataset we choose is
+                        <a class="web" href="https://think.cs.vt.edu/corgis/csv/billionaires/">Billionaires</a>
+                        from the
+                        <a class="web" href="https://think.cs.vt.edu/corgis/">CORGIS Dataset Project.</a>
+                        Building on the Forbes World’s Billionaires lists from 1996–2014, this dataset contains 22
+                        features
+                        and 2617 entries.
+                    </p>
+
+                    <section class="features">
+                        <!-- <div class="box alt"> -->
+                        <div class="row gtr-uniform">
+                            <div class="col-12">
+                                <span class="image fit">
+                                    <figure>
+                                        <img src="images/design_for_understanding/design_for_understanding_2.png"
+                                            alt="" />
+                                        <figcaption>All features in the dataset.</figcaption>
+                                    </figure>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </section>
+
+                    <p>Features in the dataset include the 5 different types of information:</p>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <ol class="default">
+                                <li>basic information (e.g., name and rank)</li>
+                                <li>company information (e.g., company name and company type)</li>
+                                <li>demographic information (e.g., age and gender)</li>
+                                <li>location information (e.g., citizenship and company location)</li>
+                                <li>wealth information (e.g., wealth worth and wealth category)</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <p>The tool we used to create the visualization is
+                        <a class="web" href="https://www.tableau.com/">Tableau.</a>
+                        The reason is threefold:
+                    </p>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <ol class="default">
+                                <li>Tableau enables users to create more than 20 types of charts without coding quickly.
+                                    So we could focus on the design of the visualization.</li>
+                                <li>Tableau allows users to connect every figure and create a dashboard with
+                                    customizable interactive actions.</li>
+                                <li>We could share our work publicly on
+                                    <a class="web" href="https://public.tableau.com/en-us/s/">Tableau public</a>,
+                                    which will create a link and embedded code for us. With the embedded code, it would
+                                    be easy for us to put our work on our website.
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <p>Besides, to make our work public, we adopt
+                        <a class="web" href="https://www.heroku.com/">Heroku</a>
+                        as our website host service since it can be connected to Github and update the website in
+                        real-time.
+                    </p>
+                </section>
+
+                <section class="article">
+                    <h3 class="major">Design Process</h3>
+                    <p>Inspired by the <a class="web"
+                            href="http://fds.design/wp-content/uploads/2015/06/five-design-sheet-approach-JCR.pdf">five
+                            design-sheet</a>, we first created a shared document to gather our thoughts on this project.
+                        I worked on the clear communication and reasoning part. For the communication part, we need to
+                        create objective and unbiased visualization for the dataset. After discussing with teammates, we
+                        decided to focus on the most essential features in the dataset, such as regional distribution,
+                        gender/age chart, sector/industry distribution, and billionaires ranking.</p>
+
+                    <section class="features">
+                        <!-- <div class="box alt"> -->
+                        <div class="row gtr-uniform">
+                            <div class="col-12">
+                                <span class="image fit">
+                                    <figure>
+                                        <img src="images/design_for_understanding/design_for_understanding_3.png"
+                                            alt="" />
+                                        <figcaption>Screenshot of brainstorming on the communication part.</figcaption>
+                                    </figure>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </section>
+
+                    <p>The next step of our design process is the initial designs. We created sketches for the charts we
+                        discussed in the previous step. And we compare the advantages and disadvantages of each chart.
+                    </p>
+
+
+                    <section class="features">
+                        <!-- <div class="box alt"> -->
+                        <div class="row gtr-uniform">
+                            <div class="col-12">
+                                <span class="image fit">
+                                    <figure>
+                                        <img src="images/design_for_understanding/design_for_understanding_4.png"
+                                            alt="" />
+                                        <figcaption>Design Sheet from me (left column) and my teammate (right column).
+                                        </figcaption>
+                                    </figure>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </section>
+
+                    <p>Besides the design sheet, we also asked classmates for suggestions during the design process. And
+                        we received several valuable feedbacks:</p>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <ol class="default">
+                                <li>Using treemap instead of the world map to present the regional distribution since
+                                    the world map might be too sparse if some countries do not have as many billionaires
+                                    as the others.</li>
+                                <li>Using the two-sided bar chart instead of the vertical bar chart in different colors
+                                    to present the gender/age info since it would be easier for the audience to see the
+                                    contrast.</li>
+                                <li>Adding more connections to charts such as the industry wealth worth chart and
+                                    top-ranked billionaires chart.</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <p>Based on our design sheet and the feedback, we decided to create 7 charts to present the data:
+                        <i>regional distribution treemap</i>, <i>wealth worth area chart</i>, <i>industry wealth worth
+                            bar chart</i>,
+                        <i>top-ranked billionaires table</i>, <i>gender/age bar chart</i>, <i>billionaires distribution
+                            by industry</i> and <i>by
+                            sector</i>. It is worth noting that most of the charts are interactive, which means that if
+                        we click
+                        on one label on specific charts, the other charts will change accordingly to show the filtered
+                        data.
+                    </p>
+                </section>
+
+                <section class="article">
+                    <h3 class="major">Data Visualization</h3>
+                    <p>After we decided on the charts and layout, we started to realize our design in Tableau. I created
+                        the following 4 interactive charts for this project.</p>
+                    <!-- </section> -->
+
+                    <section class="features">
+                        <!-- <div class="box alt"> -->
+                        <div class="row gtr-uniform">
+                            <div class="col-12">
+                                <span class="image fit">
+                                    <figure>
+                                        <img src="images/design_for_understanding/design_for_understanding_5.gif"
+                                            alt="" />
+                                        <figcaption>Regional Distribution Treemap.</figcaption>
+                                    </figure>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </section>
+
+                    <p>The <i>Regional Distribution treemap</i> shows how many billionaires are in each country from
+                        1996 to 2014. The size of each country is determined by the number of billionaires in that
+                        country. Detailed information will show up when the mouse is hovering over the country. For
+                        example, the United States has 657 billionaires and 123 companies founded with a total wealth
+                        worth of 3,542 billion.</p>
+
+                    <section class="features">
+                        <!-- <div class="box alt"> -->
+                        <div class="row gtr-uniform">
+                            <div class="col-12">
+                                <span class="image fit">
+                                    <figure>
+                                        <img src="images/design_for_understanding/design_for_understanding_6.gif"
+                                            alt="" />
+                                        <figcaption>Area Chart for industry wealth.</figcaption>
+                                    </figure>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </section>
+
+                    <p>The <i>Wealth Worth Area Chart</i> gives the wealth worth in each industry. Different colors
+                        represent different industries, and all industries are sorted in descending order in terms of
+                        wealth worth. For example, the wealth worth of the Consumer industry was 364 billion in 2001.
+                    </p>
+
+                    <section class="features">
+                        <!-- <div class="box alt"> -->
+                        <div class="row gtr-uniform">
+                            <div class="col-12">
+                                <span class="image fit">
+                                    <figure>
+                                        <img src="images/design_for_understanding/design_for_understanding_7.gif"
+                                            alt="" />
+                                        <figcaption>Bar Chart for wealth worth by industry.</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="images/design_for_understanding/design_for_understanding_8.png"
+                                            alt="" />
+                                        <figcaption>Bar Chart for wealth worth by industry (Static).</figcaption>
+                                    </figure>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </section>
+
+                    <p>The <i>Industry Wealth Worth Bar Chart</i> presents the wealth worth information on each
+                        industry. It is connected to the <i>Wealth Worth Area Chart</i>. If we click on the year label
+                        on the x-axis of the area chart, the industry wealth worth bar chart will show the detailed
+                        information of all industries in the year we choose accordingly. For instance, the wealth worth
+                        of the Energy industry is 341 billion in 2014.</p>
+
+
+                    <section class="features">
+                        <!-- <div class="box alt"> -->
+                        <div class="row gtr-uniform">
+                            <div class="col-12">
+                                <span class="image fit">
+                                    <figure>
+                                        <img src="images/design_for_understanding/design_for_understanding_9.gif"
+                                            alt="" />
+                                        <figcaption>Interactive demo for Area Chart, Bar chart, and Table.</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="images/design_for_understanding/design_for_understanding_10.gif"
+                                            alt="" />
+                                        <figcaption>Table for top-ranked billionaires.</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="images/design_for_understanding/design_for_understanding_11.png"
+                                            alt="" />
+                                        <figcaption>Table for top-ranked billionaires (Static).</figcaption>
+                                    </figure>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </section>
+
+                    <p>The last chart I created is the <i>Top-ranked Billionaires Table</i>, which gives the name,
+                        company
+                        name, company sector, and year of the rank of the top 10 billionaires. This table is connected
+                        with
+                        both <i>Wealth Worth Area Chart</i> and <i>Industry Wealth Worth Bar Chart</i>. The rank list
+                        will
+                        change correspondingly if the year label in the area chart or/and industry bar in the bar chart
+                        changes. For instance, if we select ‘2014’ as the year label, and ‘Technology-computer’ as the
+                        industry bar, we can see the richest person in the technology-computer industry in 2014 is Bill
+                        Gates.</p>
+
+                </section>
+
+
+
+                <section class="article">
+                    <h3 class="major">Communication & Persuasion</h3>
+                    <p>This project contains two different portraits of the same dataset. During the design process, I
+                        found that the focus of the two sides is very different. For the communication part I worked on,
+                        we put a lot of effort into objectively describing the statistical facts without any personal
+                        understanding. Our goal is to tell the audience what the dataset is about, what important
+                        features are in the dataset, and what kind of data they could expect from the dataset.</p>
+
+                    <p>However, for the persuasion part, their goal is to tell a story they observe or generalize from
+                        the dataset. Hence, their design should be interesting and compelling, attracting the audience
+                        as much as possible. Unlike the communication part, the story could be subjective and may vary
+                        depending on the storytellers.</p>
+                </section>
+
+                <section class="article">
+                    <h3 class="major">Final Work & Demo</h3>
+                    <p>We hosted our work on Heroku, which is publicly accessible by any user. The final work can be
+                        found
+                        <a class="web" href="https://hci-project-2.herokuapp.com/">here</a>.
+                    </p>
+                    <p>Also, we made a demo video for the project to better present the interactive features:</p>
+
+                    <section class="features">
+                        <article>
+                            <a href="https://youtu.be/i_bG0mQYvvY" class="image"><img
+                                    src="images/design_for_understanding/design_for_understanding_cover.png"
+                                    alt="" /></a>
+                            <h3 class="major">HCI DS2 Group4 Demo</h3>
+                            <a href="https://youtu.be/i_bG0mQYvvY" class="special">Watch Video</a>
+                        </article>
+                    </section>
+                </section>
+
+                <section class="article">
+                    <h3 class="major">Conclusion</h3>
+                    <p>This group project provides a great opportunity for me to learn about data visualization,
+                        especially the difference between clear communication and persuasive communication. The
+                        final work is not ideal due to the time limit. If we have more time, we could improve
+                        the design of the website to better present our final work.</p>
+                </section>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer id="footer">
+
+        <!-- Icons -->
+        <ul class="icons">
+            <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+            <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+            <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+            <li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
+        </ul>
+
+        <!-- Menu -->
+        <ul class="menu">
+            <li>&copy; Untitled</li>
+            <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+        </ul>
+
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.poptrox.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

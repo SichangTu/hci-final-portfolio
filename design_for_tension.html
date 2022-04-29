@@ -1,0 +1,468 @@
+<!DOCTYPE HTML>
+<!--
+	Big Picture by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <title>Design for Tension - Sichang Tu</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+</head>
+
+<body class="is-preload">
+    <!-- Header -->
+    <header id="header">
+        <h1>Sichang Tu</h1>
+        <nav>
+            <ul class="dropdown">
+                <li>
+                    <div>Home Page</div>
+                    <ul>
+                        <li><a href="index.html#intro">Intro</a></li>
+                        <li><a href="index.html#one">What I Do</a></li>
+                        <li><a href="index.html#two">Who I Am</a></li>
+                        <li><a href="index.html#work">My Work</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </li>
+                <li><a href="portfolio.html">Portfolio</a> </li>
+                <li><a href="html5up-solid-state/generic.html">Reflection</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="wrapper">
+        <header>
+            <div class="inner">
+                <h2>Design for Tension</h2>
+                <p>Women’s Health Chatbot using FlowXO</p>
+            </div>
+        </header>
+
+        <div class="wrapper">
+            <div class="inner">
+                <h3 class="major">Introduction</h3>
+
+                <section class="features">
+                    <!-- <div class="box alt"> -->
+                    <div class="row gtr-uniform">
+                        <div class="col-12">
+                            <span class="image fit">
+                                <figure>
+                                    <img src="images/design_for_tension/design_for_tension_1.jpg" alt="" />
+                                    <figcaption>Nadzeya_Dzivakova/iStock, Getty Images</figcaption>
+                                </figure>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- </div> -->
+                </section>
+
+                <p>This group project aims to create a chatbot that could help our users correct common misconceptions
+                    about women’s health. In this blog, I will first introduce the framing process of our chatbot,
+                    defining the topic, the user group, and our goal. And then, I will illustrate how we ideate the
+                    chatbot, including brainstorming, sketches, and flowchart. At last, I will present how we implement
+                    the chatbot using
+                    <a class="web" href="https://flowxo.com/">Flow XO</a>.
+                </p>
+
+                <section class="article">
+                    <h3 class="major">Framing Chatbot</h3>
+                    <p>As its name indicates, our chatbot is about women’s health. Here, the scope of ‘women’s health’
+                        is widely-spread common misconceptions about women’s health on social media platforms such as
+                        Facebook and Twitter. The usage of social media platforms has been vastly increased in recent
+                        years. People are receiving various information from those platforms every day. However, some
+                        information on social media might be extremely misleading.</p>
+
+                    <section class="features">
+                        <!-- <div class="box alt"> -->
+                        <div class="row gtr-uniform">
+                            <div class="col-12">
+                                <span class="image fit">
+                                    <figure>
+                                        <img src="images/design_for_tension/design_for_tension_2.png" alt="" />
+                                        <figcaption>Background Research by our group.</figcaption>
+                                    </figure>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </section>
+
+                    <p>Our group conducted research online and found that women’s health is one of the tensest topics.
+                        The reasons include but are not limited to the following:</p>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <ul class="default">
+                                <li>People do not get enough education regarding women’s health and do not even think
+                                    they should care about it.</li>
+                                <li>People intentionally politicalize women’s bodies and choices while ignoring their
+                                    actual needs and rights.</li>
+                                <li>People tend to believe any widely believed information without checking its
+                                    authenticity.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <p>Though there are plenty of medical websites or official social media accounts that deliver the
+                        correct information about women’s health, and people are recognizing that better sex education
+                        and education of everyone about women’s bodies are necessary, misconceptions like ‘bras can
+                        cause breast cancer’ are still spreading on the internet.</p>
+
+                    <p>Based on our research results, our target user groups would be:</p>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <ul class="default">
+                                <li>People who have misconceptions about women’s health.</li>
+                                <li>People who are unlikely to learn about women’s health actively, such as men.</li>
+                                <li>People who have strong beliefs about policies related to women’s health.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <p>Hence, our goal for the women’s health chatbot is to educate people by clarifying common
+                        misconceptions and increasing the exposure of people to correct women’s health information. We
+                        want to build a chatbot that pushes people out of their filter bubbles and is conversational and
+                        friendly.</p>
+
+                    <p>With all the work we did, we are finally able to generate the how-might-we statement: How might
+                        we build a chatbot that can help users to learn more about women’s health in an interactive and
+                        interesting way?</p>
+
+                    <p>The tool we are using for this project is
+                        <a class="web" href="https://flowxo.com/">Flow XO</a>.
+                        It enables users to publish their chatbots on popular platforms like Facebook and Slack. Also,
+                        it will generate a weblink for sharing the chatbot and embedding the chatbot on any webpage we
+                        want.
+                    </p>
+                </section>
+
+                <section class="article">
+                    <h3 class="major">Ideation</h3>
+                    <h4 class="subtitle">Brainstorming</h4>
+                    <p>After deciding the topic, user groups, and the goal of our chatbot, our group started to
+                        brainstorm by collecting existing common misconceptions and myths about women’s health online.
+                    </p>
+
+                    <section class="features">
+                        <!-- <div class="box alt"> -->
+                        <div class="row gtr-uniform">
+                            <div class="col-12">
+                                <span class="image fit">
+                                    <figure>
+                                        <img src="images/design_for_tension/design_for_tension_3.png" alt="" />
+                                        <figcaption>Collected misconceptions and myths.</figcaption>
+                                    </figure>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </section>
+
+                    <p>Besides, we discussed what approaches should be used to guide our users to the goal via
+                        conversation. We examined several methods within our group and decided to use the quiz as the
+                        primary approach for our bot. The reason is twofold:</p>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <ol class="default">
+                                <li>The personality of our bot is friendly and helpful, using clear and conversational
+                                    language. Using the quiz matches our design goal and our user groups. Timely
+                                    responses after quiz questions will direct our users to the correct answers and
+                                    helpful resources quickly.</li>
+                                <li>A quiz is more exciting and interactive than just providing plain facts to the
+                                    users. It will avoid driving our users away.</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <p>We further created possible quiz questions according to previously collected misconceptions and
+                        myths.</p>
+
+                    <section class="features">
+                        <!-- <div class="box alt"> -->
+                        <div class="row gtr-uniform">
+                            <div class="col-12">
+                                <span class="image fit">
+                                    <figure>
+                                        <img src="images/design_for_tension/design_for_tension_4.png" alt="" />
+                                        <figcaption>Possible quiz questions, part 1.</figcaption>
+                                    </figure>
+
+                                    <figure>
+                                        <img src="images/design_for_tension/design_for_tension_5.png" alt="" />
+                                        <figcaption>Possible quiz questions, part 2.</figcaption>
+                                    </figure>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </section>
+
+                    <p>For each quiz question, we provide the question format (e.g., true/false, single choice), the
+                        correct answer, a brief explanation of the answer, and the corresponding resources to the
+                        question.</p>
+
+                    <h4 class="subtitle">Sketching</h4>
+                    <p>Apart from generating possible quiz questions, our group also created sketches for the chatbot,
+                        visualizing the flow of the conversation before we implemented our ideas.</p>
+
+                    <section class="features">
+                        <!-- <div class="box alt"> -->
+                        <div class="row gtr-uniform">
+                            <div class="col-12">
+                                <span class="image fit">
+                                    <figure>
+                                        <img src="images/design_for_tension/design_for_tension_6.png" alt="" />
+                                        <figcaption>Sketches for our chatbot.</figcaption>
+                                    </figure>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </section>
+
+                    <h4 class="subtitle">Formative User Testing</h4>
+                    <p>Before we started programming, we conducted informal user testing on our design. The goal of this
+                        user testing is to answer the following two questions:</p>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <ul class="default">
+                                <li>How many questions are appropriate for the quiz?</li>
+                                <li>How does the user prefer to quit the chatbot?</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <p>The test results show that over 66% of users (8 out of 12) think 8~10 quiz questions would be
+                        appropriate. Hence, we decided to create a 10-question quiz for the chatbot.</p>
+
+                    <p>As for the second problem, we split users into 2 groups. Group 1 will be asked if they want to
+                        quit after every quiz question, while Group 2 are told at the beginning of the quiz they can
+                        leave at any time they want. The result shows that Group 1 answered 2 questions on average. But
+                        Group 2 answered all questions. So, we decided to tell users that they can quit at any time.</p>
+
+                </section>
+
+
+                <section class="article">
+                    <h3 class="major">Implementation</h4>
+                        <p>My main contribution to the implementation is creating the framework of our chatbot, the main
+                            menu and bot info flow, and part of the health resources flow using Flow XO. In order to
+                            present our bot in a clear and straightforward way, I also drew a high-level flowchart for
+                            our bot.</p>
+                        <!-- </section> -->
+
+                        <section class="features">
+                            <!-- <div class="box alt"> -->
+                            <div class="row gtr-uniform">
+                                <div class="col-12">
+                                    <span class="image fit">
+                                        <figure>
+                                            <img src="images/design_for_tension/design_for_tension_7.png" alt="" />
+                                            <figcaption>High-level flowchart of our chatbot.</figcaption>
+                                        </figure>
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- </div> -->
+                        </section>
+
+                        <p>As shown in the above screenshot, the chatbot contains 3 flows, including <i>Take Quiz</i>,
+                            <i>View
+                                Health Resources</i>, and <i>View Bot Info</i>. Due to the limitation of the Flow XO
+                            free account (3
+                            flows max), I combined the main menu with <i>Bot Info</i>. Users can freely choose which
+                            section
+                            they would like to go to, and will be asked if they would like to make another query or go
+                            back to the main menu at the end of each section. And if the answer is no, the conversation
+                            will end.
+                        </p>
+
+                        <section class="features">
+                            <!-- <div class="box alt"> -->
+                            <div class="row gtr-uniform">
+                                <div class="col-12">
+                                    <span class="image fit">
+                                        <figure>
+                                            <img src="images/design_for_tension/design_for_tension_8.gif" alt="" />
+                                            <figcaption>Main menu</figcaption>
+                                        </figure>
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- </div> -->
+                        </section>
+                        <p>The above gif shows how users will be asked to make the choice after saying hello to the
+                            chatbot.</p>
+
+                        <section class="features">
+                            <!-- <div class="box alt"> -->
+                            <div class="row gtr-uniform">
+                                <div class="col-12">
+                                    <span class="image fit">
+                                        <figure>
+                                            <img src="images/design_for_tension/design_for_tension_9.gif" alt="" />
+                                            <figcaption>Bot Info demo.</figcaption>
+                                        </figure>
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- </div> -->
+                        </section>
+
+                        <p>If the user chooses <i>Bot Info</i>, the chatbot will provide a detailed introduction to the
+                            chatbot
+                            and ask the user to decide whether they would like to go back to the main menu.</p>
+
+                        <section class="features">
+                            <!-- <div class="box alt"> -->
+                            <div class="row gtr-uniform">
+                                <div class="col-12">
+                                    <span class="image fit">
+                                        <figure>
+                                            <img src="images/design_for_tension/design_for_tension_10.gif" alt="" />
+                                            <figcaption>Health Resources demo.</figcaption>
+                                        </figure>
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- </div> -->
+                        </section>
+
+                        <p>If the user chooses <i>Health Resources</i>, the bot will present three categories for users
+                            to select and then provide corresponding resources. Again, users will be asked what they
+                            would like to do next at the end.</p>
+
+                        <section class="features">
+                            <!-- <div class="box alt"> -->
+                            <div class="row gtr-uniform">
+                                <div class="col-12">
+                                    <span class="image fit">
+                                        <figure>
+                                            <img src="images/design_for_tension/design_for_tension_11.gif" alt="" />
+                                            <figcaption>Quiz demo.</figcaption>
+                                        </figure>
+                                        <figure>
+                                            <img src="images/design_for_tension/design_for_tension_12.png" alt="" />
+                                            <figcaption>Quiz summary and follow-up.</figcaption>
+                                        </figure>
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- </div> -->
+                        </section>
+
+
+                        <p>As for <i>Take Quiz</i>, our bot will provide correct answers, brief explanations, resources,
+                            and users’ current scores after each question. And at the end of the quiz, our bot will
+                            report the quiz summary to the user and ask them if they want to learn more about the
+                            category they did badly in the previous quiz.</p>
+
+                </section>
+
+
+
+                <section class="article">
+                    <h3 class="major">Final User Testing</h3>
+                    <p>After the implementation, we tested our chatbot with real people and collected their thoughts.
+                    </p>
+
+                    <p>According to the test results, our chatbot did well on:</p>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <ol class="default">
+                                <li>Providing helpful resources.</li>
+                                <li>Using emoji to encourage the user.likely to learn about women’s
+                                    health actively, such as men.</li>
+                                <li>Using emoji to encourage the user.</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <p>And the chatbot also needs improvements regarding:</p>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <ol class="default">
+                                <li>More specific question description. For example, ‘birth control pills’ refer to
+                                    urgent birth control pills like plan b or long-term birth control pills.</li>
+                                <li>It would be great if users can input keywords to search for related articles.</li>
+                                <li>Resources are too long to read. Better if they can be article titles with
+                                    hyperlinks.</li>
+                                <li>More detailed feedback. For example, which topic does the user get the most scores
+                                    on.</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <p>These feedback are valuable and could guide us to further improve the design of our chatbot.</p>
+
+                </section>
+
+                <section class="article">
+                    <h3 class="major">Final Work & Demo</h3>
+                    <p>Our chatbot is available online, and you can find it <a class="web"
+                            href="https://fxo.io/m/utilisation-enchanters-3674">here</a>.</p>
+                    <p>Also, we created a demo video to better present the bot:</p>
+
+                    <section class="features">
+                        <article>
+                            <a href="https://youtu.be/0lYqbsgHsv8" class="image"><img
+                                    src="images/design_for_tension/design_for_tension_cover.png" alt="" /></a>
+                            <h3 class="major">Women's Health Bot</h3>
+                            <a href="https://youtu.be/0lYqbsgHsv8" class="special">Watch Video</a>
+                        </article>
+                    </section>
+                </section>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer id="footer">
+
+        <!-- Icons -->
+        <ul class="icons">
+            <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+            <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+            <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+            <li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
+        </ul>
+
+        <!-- Menu -->
+        <ul class="menu">
+            <li>&copy; Untitled</li>
+            <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+        </ul>
+
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.poptrox.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
